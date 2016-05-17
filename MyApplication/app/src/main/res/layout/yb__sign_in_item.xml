@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.YiBaby.yb_SignInActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorWhite">
+        <com.example.administrator.YiBaby.CircleImageView
+            android:id="@+id/ivHead"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/default_face_man"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp" />
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="石头"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_alignTop="@+id/ivHead"
+            android:layout_toRightOf="@+id/ivHead"
+            android:layout_toEndOf="@+id/ivHead" />
+        <TextView
+            android:id="@+id/tvData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2016-03-31 08:41:51"
+            android:layout_alignBottom="@+id/ivHead"
+            android:layout_alignLeft="@+id/tvName"
+            android:layout_alignStart="@+id/tvName" />
+        <TextView
+            android:id="@+id/tvCommet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="哎呀"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/ivHead"
+            android:layout_alignStart="@+id/ivHead"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:id="@+id/tvEnergyExchange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="签到能量：+1"
+            android:layout_above="@+id/tvData"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/button"/>
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/default_img_big"
+    tools:context="com.example.administrator.YiBaby.yb_SignInActivity">
+    <RelativeLayout
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#FFCE0B">
+        <ImageView
+            android:id="@+id/returns"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@mipmap/comm_back"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/tvSignIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="签到记录"
+            android:textSize="25sp"
+            android:textColor="#FFF"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorWhite">
+        <com.example.administrator.YiBaby.CircleImageView
+            android:id="@+id/ivHead"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@mipmap/default_face_man"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp" />
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="石头"
+            android:layout_alignTop="@+id/ivHead"
+            android:layout_toRightOf="@+id/ivHead"
+            android:layout_toEndOf="@+id/ivHead"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp" />
+        <TextView
+            android:id="@+id/tvEnergy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的能量："
+            android:layout_alignBottom="@+id/ivHead"
+            android:layout_alignLeft="@+id/tvName"
+            android:layout_alignStart="@+id/tvName" />
+        <TextView
+            android:id="@+id/tvNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:layout_alignTop="@+id/tvEnergy"
+            android:layout_toRightOf="@+id/tvEnergy"
+            android:layout_toEndOf="@+id/tvEnergy" />
+        <TextView
+            android:id="@+id/tvEnergyExchange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="能量兑换"
+            android:padding="5dp"
+            android:background="@drawable/btn_sigin_shape"
+            android:layout_above="@+id/tvNum"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="18dp"
+            android:layout_marginEnd="18dp" />
+    </RelativeLayout>
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/vip"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+</LinearLayout>

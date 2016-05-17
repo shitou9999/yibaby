@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/testStype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="每日宫系列婴幼儿系列奶粉"
+        android:background="@color/colortitle"
+        android:textSize="22dp"
+        android:textColor="#9C7E5B"
+        android:padding="5dp"/>
+</LinearLayout>

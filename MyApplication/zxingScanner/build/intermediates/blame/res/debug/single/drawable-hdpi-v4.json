@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\scan_qr.png",
+        "source": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\src\\main\\res\\drawable-hdpi\\scan_qr.png"
+    },
+    {
+        "merged": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mm_title_back_focused.9.png",
+        "source": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\src\\main\\res\\drawable-hdpi\\mm_title_back_focused.9.png"
+    },
+    {
+        "merged": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mm_title_back_pressed.9.png",
+        "source": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\src\\main\\res\\drawable-hdpi\\mm_title_back_pressed.9.png"
+    },
+    {
+        "merged": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\onecord_image.png",
+        "source": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\src\\main\\res\\drawable-hdpi\\onecord_image.png"
+    },
+    {
+        "merged": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\scan_btombar_bg.png",
+        "source": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\src\\main\\res\\drawable-hdpi\\scan_btombar_bg.png"
+    },
+    {
+        "merged": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mmtitle_bg_alpha.9.png",
+        "source": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\src\\main\\res\\drawable-hdpi\\mmtitle_bg_alpha.9.png"
+    },
+    {
+        "merged": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\qrcode_scan_line.png",
+        "source": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\src\\main\\res\\drawable-hdpi\\qrcode_scan_line.png"
+    },
+    {
+        "merged": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\scan_book.png",
+        "source": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\src\\main\\res\\drawable-hdpi\\scan_book.png"
+    },
+    {
+        "merged": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\scan_book_hl.png",
+        "source": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\src\\main\\res\\drawable-hdpi\\scan_book_hl.png"
+    },
+    {
+        "merged": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\scan_qr_hl.png",
+        "source": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\src\\main\\res\\drawable-hdpi\\scan_qr_hl.png"
+    },
+    {
+        "merged": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mm_title_back_normal.9.png",
+        "source": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\src\\main\\res\\drawable-hdpi\\mm_title_back_normal.9.png"
+    },
+    {
+        "merged": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\scan_store_hl.png",
+        "source": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\src\\main\\res\\drawable-hdpi\\scan_store_hl.png"
+    },
+    {
+        "merged": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\scan_store.png",
+        "source": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\src\\main\\res\\drawable-hdpi\\scan_store.png"
+    },
+    {
+        "merged": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\qrcode_image.png",
+        "source": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\src\\main\\res\\drawable-hdpi\\qrcode_image.png"
+    }
+]

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.YiBaby.yb_ImageDetilActivity">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"
+        android:layout_alignBottom="@+id/frameLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    </android.support.v4.view.ViewPager>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorWhite"
+        android:layout_above="@+id/frameLayout"/>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#77000000"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/frameLayout">
+            <TextView
+                android:id="@+id/page"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="20sp"
+                android:textColor="@color/colorWhite"
+                android:layout_toLeftOf="@+id/hhh"
+                android:layout_toStartOf="@+id/hhh"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:id="@+id/hhh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorWhite"
+                android:layout_alignTop="@+id/downLoadImg"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:id="@+id/totalCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorWhite"
+                android:layout_toRightOf="@+id/hhh"
+                android:layout_toEndOf="@+id/hhh" />
+
+            <ImageView
+                android:id="@+id/downLoadImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/bus_detail_download"
+                android:onClick="saveImg"
+                android:layout_gravity="right|center_vertical"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="22dp"
+                android:layout_marginEnd="22dp" />
+        </RelativeLayout>
+</RelativeLayout>

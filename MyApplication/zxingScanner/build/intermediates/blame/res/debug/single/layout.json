@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\build\\intermediates\\res\\merged\\debug\\layout\\activity_result.xml",
+        "source": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\src\\main\\res\\layout\\activity_result.xml"
+    },
+    {
+        "merged": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\build\\intermediates\\res\\merged\\debug\\layout\\activity_capture.xml",
+        "source": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\src\\main\\res\\layout\\activity_capture.xml"
+    }
+]

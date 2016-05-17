@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\build\\intermediates\\res\\merged\\debug\\drawable\\scan_mode_store.xml",
+        "source": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\src\\main\\res\\drawable\\scan_mode_store.xml"
+    },
+    {
+        "merged": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\build\\intermediates\\res\\merged\\debug\\drawable\\launcher_icon.png",
+        "source": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\src\\main\\res\\drawable\\launcher_icon.png"
+    },
+    {
+        "merged": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\build\\intermediates\\res\\merged\\debug\\drawable\\scan_mode_book.xml",
+        "source": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\src\\main\\res\\drawable\\scan_mode_book.xml"
+    },
+    {
+        "merged": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\build\\intermediates\\res\\merged\\debug\\drawable\\mm_title_back_btn.xml",
+        "source": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\src\\main\\res\\drawable\\mm_title_back_btn.xml"
+    },
+    {
+        "merged": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\build\\intermediates\\res\\merged\\debug\\drawable\\scan_mode_qr.xml",
+        "source": "F:\\MyAndroidProject\\MyApplication\\zxingScanner\\src\\main\\res\\drawable\\scan_mode_qr.xml"
+    }
+]
